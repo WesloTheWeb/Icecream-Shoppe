@@ -17,10 +17,10 @@ as a reference for DOM manipulation and semantic HTML (no div soups!!)
 ### Features
 While a long way and this is something I will do in my spare time as I prep for interviews would be:
 
-[ ] responsive design with appropriate breakpoints and media queries
-[ ] Body that has semantic HTML.
-[ ] basic click events JavaSCript.
-[ ] built in Carousel.
-[ ] modern look.
-[ ] simple API integration, maybe a calendar of sort. Nothing too complicated.
+- responsive design with appropriate breakpoints and media queries
+- ✔ <s>Body that has semantic HTML.</s>
+- basic click events JavaSCript.
+- built in Carousel.
+- modern look.
+- simple API integration, maybe a calendar of sort. Nothing too complicated.
     - Since this is a fictional shop, maybe a timer to show when it is open / closed on holidays in dynamic way?

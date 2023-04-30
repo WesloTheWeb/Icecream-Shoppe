@@ -1,0 +1,9 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+}
