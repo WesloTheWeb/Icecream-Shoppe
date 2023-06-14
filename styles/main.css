@@ -8,8 +8,9 @@ body {
 
 p {
     display: block;
-    margin: 1rem 0; /* Adjust the margins as per your preference */
-  }
+    margin: 1rem 0;
+    /* Adjust the margins as per your preference */
+}
 
 nav {
     display: flex;
@@ -22,3 +23,7 @@ footer {
 }
 
 /* npx tailwindcss -i ./styles/input.css -o ./dist/output.css --watch */
+
+.text-stone-950 {
+    color: var(--tw-text-stone-950);
+}

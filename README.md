@@ -7,9 +7,10 @@ forgotten it in the lands of frameworks, it's important to not rely heavily on f
 
 ## Goals
 I hope this site to evolve in time to create things listed below in features. I just want a snapshot in time of a
-responsive, semantic, HTML site and that uses good naming conventions and functions of vanilla JavaScript. As for
+responsive, semantic, HTML site and that uses good naming conventions and functions of vanilla JavaScript. <s>As for
 the CSS I figure this is a perfect environment and playground to get used to tailwind CSS. I am confident in my natural CSS
-abilities, and since it is just styling I figure this will be a good time to use it.
+abilities, and since it is just styling I figure this will be a good time to use it.</s> Tailwind is very time-consuming
+and is just writing inline CSS with more steps. I will be writing my own, keeping it vanilla.
 
 I also hope that making this public, people, friends and strangers I come across that are new to front end can use this
 as a reference for DOM manipulation and semantic HTML (no div soups!!)
