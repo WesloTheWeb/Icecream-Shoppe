@@ -2,14 +2,27 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+/* Variables */
+:root {
+    --bodyFontColor:  #262626;
+}
+
+/* native declarations */
+h1 {
+    font-size: 4.5rem;
+}
+
 body {
-    margin: 2.5rem;
+    background-color:#80e5ff;
+    margin: .75rem 1.5rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: var(--bodyFontColor);
 }
 
 p {
     display: block;
     margin: 1rem 0;
-    /* Adjust the margins as per your preference */
 }
 
 nav {
@@ -18,12 +31,30 @@ nav {
     text-decoration: none;
 }
 
+nav figure img {
+    width: 20%;
+    height: 75%;
+}
+
 footer {
     text-align: center;
 }
 
-/* npx tailwindcss -i ./styles/input.css -o ./dist/output.css --watch */
+.icecream-details {
+    display: flex;
+    flex-direction: column;
+}
 
-.text-stone-950 {
-    color: var(--tw-text-stone-950);
+.flex-container {
+    display: flex;
+}
+
+.flex-container.reverse {
+    flex-direction: row-reverse;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
