@@ -8,8 +8,8 @@ forgotten it in the lands of frameworks, it's important to not rely heavily on f
 ## Goals
 I hope this site to evolve in time to create things listed below in features. I just want a snapshot in time of a
 responsive, semantic, HTML site and that uses good naming conventions and functions of vanilla JavaScript. As for
-the CSS it will be native, no framework needed. But I refuse to use BEM. MAYBE one day I'll adapt this to tailwind
-or perhaps do a tailwind CSS project focus.
+the CSS I figure this is a perfect environment and playground to get used to tailwind CSS. I am confident in my natural CSS
+abilities, and since it is just styling I figure this will be a good time to use it.
 
 I also hope that making this public, people, friends and strangers I come across that are new to front end can use this
 as a reference for DOM manipulation and semantic HTML (no div soups!!)
