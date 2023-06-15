@@ -1,20 +1,41 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Encode+Sans+Expanded&display=swap');
+
 
 /* Variables */
 :root {
     --bodyFontColor:  #262626;
 }
 
+
+/* Preferred box-sizing value */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 /* native declarations */
 h1 {
     font-size: 4.5rem;
+    font-family: 'Archivo Black', sans-serif;
+/* font-family: 'Encode Sans Expanded', sans-serif; */
+}
+
+.logo {
+    display: flex;
+}
+
+h1.logo {
+    display: inline-block;
 }
 
 body {
-    background-color:#80e5ff;
-    margin: .75rem 1.5rem;
+    background-image: url('../assets/ice-cream-paint-job.jpg');
+    /* margin: .75rem 1.5rem; */
+    margin: 0 auto;
     font-size: 1.25rem;
     line-height: 1.5;
     color: var(--bodyFontColor);
@@ -31,22 +52,61 @@ nav {
     text-decoration: none;
 }
 
-nav figure img {
+@media (max-width: 767px) {
+    nav {
+        display: block;
+    }
+}
+
+.logo img {
     width: 20%;
-    height: 75%;
+}
+
+.logo h1 {
+    display: block;
+}
+
+@media (max-width: 767px) {
+    .logo {
+        display: block;
+    }
+
+    .logo img {
+        width: 100%;
+    }
 }
 
 footer {
+    background-color: #000;
+    color: white;
     text-align: center;
+    padding: 1.5rem;
 }
 
 .icecream-details {
     display: flex;
     flex-direction: column;
+    margin: 0 1.5rem;
 }
 
 .flex-container {
     display: flex;
+    border: 15px solid pink;
+    border-radius: 15px;
+    margin: 1.5rem auto;
+    padding: 1.5rem;
+    background: beige;
+}
+
+.flex-container img {
+    display: block;
+}
+
+@media (max-width: 767px) {
+    .flex-container, .flex-container img {
+        display: block;
+        width: 100%;
+    }
 }
 
 .flex-container.reverse {
