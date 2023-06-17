@@ -65,7 +65,8 @@ nextBtn.addEventListener("click", function () {
     updateCarousel();
 });
 
-/*NOTES
+/*NOTES 
+1. Comparison Operators
 comparison operations like currentImageIndex === 0 or 
 currentImageIndex === carouselItems.length - 1 yield boolean values - either true or false.
 
@@ -84,4 +85,22 @@ The same principle applies to nextBtn.disabled = currentImageIndex === carouselI
 
 It's worth noting that the disabled property of a button is a boolean property, so assigning it a boolean value 
 is the correct approach.
+
+
+2. Also Index !== length
+This used to throw me off but remember that just because array indices start at 0 DOES NOT mean length does too. Length gets
+the actual number of elements in an array...
+
+console.log('carouselItems length is', carouselItems.length) // 3
+
+So when we 
+
+    nextBtn.disabled = currentImageIndex === carouselItems.length - 1;
+
+    if the index, which can only go up to 2 beacuse it counts 2, is equal to...
+        carouselItems.length (3) - 1, which is 2.
+
+        we disable the next button.
+
+
 */

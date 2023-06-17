@@ -1,6 +1,13 @@
 # ABOUT
 This is a small project that is ice cream shop theme. 
 
+## HOW TO RUN PROJECT LOCALLY:
+1. Git clone this repository to your files.
+2. (Preferred) You can get a Live Server if you are using Visual Studio Code. Once downloaded right-click 'index.html' and launch the server to view the page.
+
+Or once downloaded, just click the index.html file in the downloaded folder as everything is contained in the folder.  
+
+
 ## WHY?
 It has been quite some time since I have coded in regular vanilla HTML, CSS and JavaScript. While I have not
 forgotten it in the lands of frameworks, it's important to not rely heavily on frameworks. 
