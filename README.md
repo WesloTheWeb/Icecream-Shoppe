@@ -20,8 +20,27 @@ While a long way and this is something I will do in my spare time as I prep for 
 
 - responsive design with appropriate breakpoints and media queries
 - ✔ <s>Body that has semantic HTML.</s>
-- basic click events JavaSCript.
-- built in Carousel.
-- modern look.
+- ✔ <s>basic click events JavaScript.</s>
+- ✔ <s>build a Carousel.</s>
+- ✔ <s>modern look.</s>
+
+### Technology Stack used:
+- HTML5
+- CSS3
+- JavaScript (ES 6+) aka vanilla JS
+- ChatGPT for content and filler text
+- Pexel imagery for imagery
+
+### Future Content
+As fun as this was to do in vanilla HTML, CSS and JavaScript I must get back to my current studies. I will gradually add more to this when I figure out how I want to do this site as I am mainly freestyling. I do hope this accomplishes two things: 
+1. That I can do projects in vanilla and I do not rely heavily on frameworks, that this shows mastery of DOM manipulation.
+2. It can help newcomers for a stimple static site. 
+
+
+Some things to look forward to in the future:
 - simple API integration, maybe a calendar of sort. Nothing too complicated.
     - Since this is a fictional shop, maybe a timer to show when it is open / closed on holidays in dynamic way?
+- Menu Items 
+    - Once I think of something clever
+- Ice Cream builder
+    - This is just heavy CSS and would be desktop only. Mostly CSS art.

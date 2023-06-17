@@ -32,8 +32,6 @@ const carouselItems = [
     }
 ];
 
-console.log(carouselItems);
-
 // Get necessary elements
 const carouselImgElement = document.getElementById("carousel-img");
 const carouselTextElement = document.getElementById("carousel-text");
