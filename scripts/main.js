@@ -65,6 +65,10 @@ nextBtn.addEventListener("click", function () {
     updateCarousel();
 });
 
+function toggleMenu() {
+    document.getElementById("mobile-menu").classList.toggle("show");
+}
+
 /*NOTES 
 1. Comparison Operators
 comparison operations like currentImageIndex === 0 or 

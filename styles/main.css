@@ -90,8 +90,6 @@ p {
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
     text-decoration: none;
 }
 
@@ -140,6 +138,81 @@ footer {
         display: none;
     }
 }
+
+/* MOBILE MENU START */
+.mobile-menu {
+    display: none;
+    background-color: #f0f0f0;
+    border: 3px solid #000;
+}
+
+.mobile-menu.show {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 11;
+    padding: 1.5rem;
+    width: 50%;
+    /* adjust as needed */
+    height: 50%;
+    /* adjust as needed */
+    overflow-y: auto;
+    /* scroll if content overflows */
+}
+
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 2rem;
+    height: 2rem;
+    background: transparent;
+    border: none;
+    padding: 0;
+    z-index: 10;
+    margin: 0 1rem;
+
+}
+
+.hamburger-menu div {
+    width: 2rem;
+    height: 0.25rem;
+    background: #333;
+    border-radius: 10px;
+    transition: all 0.3s linear;
+    position: relative;
+    transform-origin: 1px;
+}
+
+@media screen and (max-width: 768px) {
+    .hamburger-menu {
+        display: flex;
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .mobile-menu a {
+        display: block;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 769px) {
+
+    .mobile-menu,
+    .mobile-menu.show {
+        display: none !important;
+    }
+}
+
+/* MOBILE MENU END */
 
 .logo img {
     margin: 1rem;
