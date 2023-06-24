@@ -379,3 +379,26 @@ footer {
     opacity: 0.5;
     cursor: not-allowed;
 }
+
+/* ice cream menu */
+.icecream-menu {
+    margin: 2rem;
+    border: 2.5px solid var(--borderColor);
+    padding: 1.75rem;
+    background-color: white;;
+}
+
+.available-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.subcategories {
+    display: flex;
+    justify-content: space-between;
+    color: red;
+}
+
+.available-items > section {
+    border: dashed red 2px;
+}

@@ -105,6 +105,4 @@ So when we
         carouselItems.length (3) - 1, which is 2.
 
         we disable the next button.
-
-
 */
