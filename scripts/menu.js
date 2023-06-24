@@ -16,6 +16,7 @@ const menuItems = [
     },
 ];
 
+// helper function
 function generateMenuItemHTML(item) {
     console.log('initiated!')
     return `
@@ -24,25 +25,21 @@ function generateMenuItemHTML(item) {
             <p>${item.price}</p>
         </div>
     `;
-}
-
+};
 
 // Function to populate the menu items for a given category
 const populateMenuItems = (category, containerId) => {
     const container = document.getElementById(containerId);
     container.innerHTML = ""; // Clear the container
 
-    // Filter menu items based on the category
-    const items = menuItems.filter(function (item) {
-        return item.category === category;
-    });
+    const items = menuItems.filter((item) => item.category === category);
 
     // Generate HTML for each menu item and append to the container
-    items.forEach(function (item) {
+    items.forEach((item) => {
         const itemHTML = generateMenuItemHTML(item);
         container.insertAdjacentHTML("beforeend", itemHTML);
     });
-}
+};
 
 // Populate the menu items for each category
 populateMenuItems("Cones", "cones-container");
