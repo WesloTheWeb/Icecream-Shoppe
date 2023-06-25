@@ -1,5 +1,6 @@
 # ABOUT
 This is a small project that is ice cream shop theme. 
+A very simple site using HTML, CSS, and Vanilla JavaScript. Highlight of just using semantic HTML for responsive design and simple DOM manipulations.
 
 ## HOW TO RUN PROJECT LOCALLY:
 1. Git clone this repository to your files.
@@ -42,11 +43,8 @@ As fun as this was to do in vanilla HTML, CSS and JavaScript I must get back to 
 1. That I can do projects in vanilla and I do not rely heavily on frameworks, that this shows mastery of DOM manipulation.
 2. It can help newcomers for a simple static site. 
 
-
 Some things to look forward to in the future:
 - simple API integration, maybe a calendar of sort. Nothing too complicated.
     - Since this is a fictional shop, maybe a timer to show when it is open / closed on holidays in dynamic way?
-- Menu Items 
-    - Once I think of something clever
 - Ice Cream builder
     - This is just heavy CSS and would be desktop only. Mostly CSS art.
