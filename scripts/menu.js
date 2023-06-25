@@ -1,24 +1,63 @@
+function toggleMenu() {
+    document.getElementById("mobile-menu").classList.toggle("show");
+}
+
 const menuItems = [
     {
         category: "Cones",
-        name: "Vanilla Ice Cream Cone",
+        name: "Vanilla Ice Cream",
         price: "$3.50"
     },
     {
         category: "Cones",
-        name: "Chocolate Ice Cream Cone",
+        name: "Chocolate Ice Cream",
         price: "$3.50"
     },
     {
         category: "Cones",
-        name: "Strawberry Ice Cream Cone",
+        name: "Strawberry Ice Cream",
         price: "$3.50"
     },
+    {
+        category: "Sundaes",
+        name: "Hot Fudge Sundae",
+        price: "$7.75"
+    },
+    {
+        category: "Sundaes",
+        name: "Banana Split",
+        price: "$7.75"
+    },
+    {
+        category: "Boba",
+        name: "Matcha Milk Tea",
+        price: "$4.50"
+    },
+    {
+        category: "Boba",
+        name: "Taro Milk Tea",
+        price: "$4.50"
+    },
+    {
+        category: "Boba",
+        name: "Strawberry Smoothie with Boba",
+        price: "$5.00"
+    },
+    {
+        category: "Specials",
+        name: "Rainbow Delight",
+        price: "$8.50"
+    },
+    {
+        category: "Specials",
+        name: "Caramel Crunch Sundae",
+        price: "$8.00"
+    }
 ];
+
 
 // helper function
 function generateMenuItemHTML(item) {
-    console.log('initiated!')
     return `
         <div class="subcategory-item">
             <p>${item.name}</p>
